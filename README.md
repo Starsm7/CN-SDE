@@ -10,6 +10,8 @@ The schematic illustration of the MuiltHipPoseNet algorithm. First, we model the
 
 ## Introduction
 
+We have provided the code for implementing causal networks and causal consistency, bidirectional SDEs, as well as the simulated dataset, respectively.
+
 ## Issues/Pull Requests/Feedbacks
 
 Don't hesitate to contact for any feedback or create issues/pull requests/feedbacks.
