@@ -4,7 +4,7 @@ This is a pytorch implementation of CN-SDE, a causal neural network of stochasti
 
 ![](https://github.com/Starsm7/CN-SDE/blob/main/visual/imgs/CN-SDE.png)
 
-The schematic illustration of the MuiltHipPoseNet algorithm. First, we model the cellular dynamics as the forward process of a diffusion model, whereby the drift term of the SDE learns by discovering causal relationships between genes. Next, considering the consistency loss of cell type distribution between the predictions and the real data, we introduce an additional pre-trained classifier, ROCKET, to classify the cell types of unseen points. Then, through the reverse process of the diffusion model, the gradient term is separated from the drift term of the reverse process, thereby obtaining the Waddington potential landscape of the cells. Finally, jointly train the forward process and reverse process of the diffusion model to ensure reversible consistency between the forward and reverse processes.
+The schematic illustration of the MuiltHipPoseNet algorithm. 
 
 ## Introduction
 
